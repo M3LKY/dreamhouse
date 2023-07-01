@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Fleur+De+Leah&family=Knewave&family=Play&family=Poiret+One&family=Shadows+Into+Light&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary bg-gray-700;
+  }
+  .dropdown {
+    @apply w-full lg:max-w-[296px] cursor-pointer;
+  }
+  .dropdown-btn {
+    @apply flex h-[64px] items-center px-[18px] border rounded-lg;
+  }
+  .dropdown-icon-primary {
+    @apply text-2xl mr-[18px] text-pink1;
+  }
+  .dropdown-icon-secondary {
+    @apply text-2xl text-ef7c8e ml-auto;
+  }
+  .dropdown-menu {
+    @apply px-6 py-8 text-[15px] space-y-6 shadow-md bg-white absolute w-full z-10 list-none rounded-b-lg;
+  }
+  .fon{
+    font-family: 'Bungee Hairline', cursive;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .hom{
+    opacity: 1;
+  }
+  
+  
+}
