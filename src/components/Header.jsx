@@ -8,17 +8,7 @@ const Header = () => {
     <div className='fon container mx-auto flex justify-between items-center'>
       <Link to='/dreamhouse/'>
       DreamHome
-
       </Link>
-
-      {/* <div className='flex items-center gap-6'>
-        <Link className='hover:text-violet-900 transition' to=''>
-        Log In
-        </Link>
-        <Link className='bg-violet-700 hover:bg-violet-800 text-white px-4 py-3 rounded-lg transition'>
-        Sign out
-        </Link>
-      </div> */}
     </div>
   </header>
   )
