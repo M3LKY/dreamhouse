@@ -12,7 +12,7 @@ const PropertyDetails = () => {
     event.preventDefault();
     setFormSubmitted(true);
     setTimeout(() => {
-      window.location.href = '/'; // Redirect to the homepage after 4 seconds
+      window.location.href = '/dreamhouse/'; // Redirect to the homepage after 4 seconds
     }, 5000);
   };
   return (

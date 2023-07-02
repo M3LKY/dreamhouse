@@ -6,7 +6,7 @@ const Header = () => {
   return( 
   <header className='py-6 mb-12 border-b'>
     <div className='fon container mx-auto flex justify-between items-center'>
-      <Link to='/'>
+      <Link to='/dreamhouse/'>
       DreamHome
 
       </Link>
